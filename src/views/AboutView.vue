@@ -77,7 +77,7 @@ onUnmounted(() => {
       <div class="card-body items-center text-center">
         <i class="fa-solid fa-dollar-sign text-5xl" style="color: #50b356"></i>
         <h2 class="card-title font-bold text-2xl">Harga Terjangkau</h2>
-        <p>Dapatkan harga Produk murah dengan penawaran menarik.</p>
+        <p>Dapatkan harga Produk bersahabat dengan penawaran menarik.</p>
       </div>
     </div>
 
@@ -101,13 +101,13 @@ onUnmounted(() => {
 
 <style scoped>
 .about {
-  margin-top: 80px; /* Mengurangi margin top */
+  margin-top: 80px;
 }
 
 @media (min-width: 1024px) {
   .about {
     margin-top: 80px;
-    gap: 0; /* Menghilangkan gap pada desktop */
+    gap: 0;
   }
 }
 </style>

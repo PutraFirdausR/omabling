@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, useRouter } from "vue-router";
-import { useNavbarStore } from "@/stores/navbar";
+
 import Button from "@/ui/Button.vue";
 import AboutView from "@/views/AboutView.vue";
 import ContactView from "@/views/ContactView.vue";
@@ -9,9 +9,7 @@ import ImageCarousel from "@/components/ImageCarousel.vue";
 const router = useRouter();
 
 const handleProductClick = () => {
-  // Navigate to product page
   router.push("/product");
-  // Trigger click on navbar product link to update border
   const productLink = document.querySelector('a[href="/product"]');
   if (productLink) {
     productLink.click();

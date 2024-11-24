@@ -79,13 +79,13 @@
 
 <style scoped>
 .contact {
-  margin-top: 80px; /* Mengurangi margin top */
+  margin-top: 80px;
 }
 
 @media (min-width: 1024px) {
   .contact {
     margin-top: 80px;
-    gap: 0; /* Menghilangkan gap pada desktop */
+    gap: 0;
   }
 }
 </style>

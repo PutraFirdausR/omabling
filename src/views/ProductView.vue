@@ -2,10 +2,8 @@
 import { ref } from "vue";
 import Button from "@/ui/Button.vue";
 
-// Array untuk menyimpan state visibility description untuk setiap card
 const visibleDescriptions = ref(new Array(12).fill(false));
 
-// Toggle visibility untuk description tertentu
 const toggleDescription = (index) => {
   visibleDescriptions.value[index] = !visibleDescriptions.value[index];
 };
@@ -647,13 +645,13 @@ const toggleDescription = (index) => {
 
 <style scoped>
 .product {
-  margin-top: 80px; /* Mengurangi margin top */
+  margin-top: 80px;
 }
 
 @media (min-width: 1024px) {
   .about {
     margin-top: 80px;
-    gap: 0; /* Menghilangkan gap pada desktop */
+    gap: 0;
   }
 }
 </style>

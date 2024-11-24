@@ -140,9 +140,9 @@ watch(
     <div class="navbar-end">
       <!-- Button -->
       <a
-        href="https://api.whatsapp.com/send/?phone=6281325618055&amp;text=Hallo Omabling, saya ingin pesan"
+        href="https://api.whatsapp.com/send/?phone=6281325618055&amp;text=Hallo Omabling, saya ingin bertanya-tanya"
       >
-        <Button>Pesan Sekarang</Button>
+        <Button>Bertanya</Button>
       </a>
     </div>
   </div>
