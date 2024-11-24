@@ -142,7 +142,7 @@ watch(
       <a
         href="https://api.whatsapp.com/send/?phone=6281325618055&amp;text=Hallo Omabling, saya ingin bertanya-tanya"
       >
-        <Button>Bertanya</Button>
+        <Button>Tanya Omabling</Button>
       </a>
     </div>
   </div>
