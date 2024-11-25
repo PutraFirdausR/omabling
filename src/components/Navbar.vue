@@ -67,7 +67,7 @@ watch(
           class="menu menu-sm dropdown-content bg-[#50b356] rounded-box mt-3 w-52 p-3 shadow"
         >
           <!-- Mobile Navbar -->
-          <div class="flex gap-5 lg:text-lg flex-col lg:flex-row">
+          <div class="flex fixed gap-5 lg:text-lg flex-col lg:flex-row">
             <RouterLink
               to="/"
               class="lg:hover:scale-110 text-white lg:focus:border-b-2 lg:border-[#50b356] transition-all"

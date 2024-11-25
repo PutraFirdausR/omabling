@@ -18,8 +18,8 @@
           class="min-w-full h-[400px] relative"
         >
           <img
-            :src="image.url"
-            :alt="image.alt"
+            :src="image"
+            :alt="`Dokumentasi ${index + 1}`"
             class="w-full h-full object-cover"
           />
         </div>
@@ -82,25 +82,13 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import image1 from "@/assets/image/1.jpg";
+import image2 from "@/assets/image/2.jpg";
+import image3 from "@/assets/image/3.jpg";
+import image4 from "@/assets/image/4.jpg";
 
-const images = [
-  {
-    url: "/src/assets/image/1.jpg",
-    alt: "Dokumentasi",
-  },
-  {
-    url: "/src/assets/image/2.jpg",
-    alt: "Dokumentasi",
-  },
-  {
-    url: "/src/assets/image/3.jpg",
-    alt: "Dokumentasi",
-  },
-  {
-    url: "/src/assets/image/4.jpg",
-    alt: "Dokumentasi",
-  },
-];
+// Menggunakan import gambar langsung
+const images = [image1, image2, image3, image4];
 
 const currentIndex = ref(0);
 let intervalId = null;
