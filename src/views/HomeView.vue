@@ -20,7 +20,7 @@ const handleProductClick = () => {
 <template>
   <div
     class="hero min-h-screen"
-    style="background-image: url(/src/assets/image/hero.jpeg)"
+    style="background-image: url(src/assets/image/hero.jpeg)"
   >
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-neutral-content text-center">

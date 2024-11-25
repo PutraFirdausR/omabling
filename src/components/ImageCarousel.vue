@@ -86,15 +86,19 @@ import { ref, onMounted, onUnmounted } from "vue";
 const images = [
   {
     url: "/src/assets/image/1.jpg",
+    alt: "Dokumentasi",
   },
   {
     url: "/src/assets/image/2.jpg",
+    alt: "Dokumentasi",
   },
   {
     url: "/src/assets/image/3.jpg",
+    alt: "Dokumentasi",
   },
   {
     url: "/src/assets/image/4.jpg",
+    alt: "Dokumentasi",
   },
 ];
 

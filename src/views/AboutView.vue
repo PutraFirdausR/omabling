@@ -73,7 +73,7 @@ onUnmounted(() => {
   <div
     class="flex flex-col lg:flex-row flex-wrap justify-center items-center pt-8 mb-5 gap-8 pb-14"
   >
-    <div class="card w-80 shadow-lg bg-white">
+    <div class="card w-80 lg:w-96 shadow-lg bg-white">
       <div class="card-body items-center text-center">
         <i class="fa-solid fa-dollar-sign text-5xl" style="color: #50b356"></i>
         <h2 class="card-title font-bold text-2xl">Harga Terjangkau</h2>
@@ -81,7 +81,7 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <div class="card w-80 shadow-lg bg-white">
+    <div class="card w-80 lg:w-96 shadow-lg bg-white">
       <div class="card-body items-center text-center">
         <i class="fa-solid fa-star text-5xl" style="color: #50b356"></i>
         <h2 class="card-title font-bold text-2xl">Berkualitas</h2>
@@ -89,7 +89,7 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <div class="card w-80 shadow-lg bg-white">
+    <div class="card w-80 lg:w-96 shadow-lg bg-white">
       <div class="card-body items-center text-center">
         <i class="fa-solid fa-truck-fast text-5xl" style="color: #50b356"></i>
         <h2 class="card-title font-bold text-2xl">Pemesanan Mudah</h2>
