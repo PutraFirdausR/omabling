@@ -86,19 +86,15 @@ import { ref, onMounted, onUnmounted } from "vue";
 const images = [
   {
     url: "/src/assets/image/1.jpg",
-    alt: "Mekkah Scene",
   },
   {
     url: "/src/assets/image/2.jpg",
-    alt: "Group Photo at Mosque",
   },
   {
     url: "/src/assets/image/3.jpg",
-    alt: "Tour Group Photo",
   },
   {
     url: "/src/assets/image/4.jpg",
-    alt: "Tour Group Photo",
   },
 ];
 
