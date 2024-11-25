@@ -1,5 +1,5 @@
 <template>
-  <div class="contact lg:pt-0 pb-14">
+  <div class="contact pt-14 lg:pt-0 pb-14">
     <div
       class="flex flex-col justify-center items-center text-center px-10 pb-8"
     >
