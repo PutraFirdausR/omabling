@@ -1,4 +1,4 @@
-# ![Vue.js Logo](https://vuejs.org/images/logo.png) Omabling
+# <div align="center"> <img src="https://vuejs.org/images/logo.png" alt="Vue.js Logo" width="150"> </div> Omabling
 
 Deskripsi singkat tentang proyek ini.
 
